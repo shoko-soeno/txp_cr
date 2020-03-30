@@ -1,5 +1,5 @@
 臨床研究グループ定例
----
+----
 共同
 
 1. CC-validation研究: こちらは現在CWに依頼中。データが出たら後藤が執筆投稿（open journalもしくはAMS）。NSERの日本語論文（園生ら、救急医学会2018）の英語版の執筆→園生先生が執筆？
@@ -56,5 +56,5 @@
 データについてのメモ
 
 - NSERでdeath==0だがcpa_flag==1の場合は蘇生に成功したケース。来院時心肺停止を一律除外する場合、cpa_flag==1を除外する	
-- ICU入室について：dispositionがICUのケースは、ICU入室患者でrrsが稼働したケース。転帰がICU入室である患者を拾うには、dispo_wardというフィールド 3-3ICUがICUとなっている患者を抽出する。
+- ICU入室について：dispositionがICUのケースは、ICU入室患者でrrsが稼働したケース。転帰がICU入室である患者を拾うには、20191001_ERresearch_eenc_original.xlsxのdispo_wardというフィールド 3-3ICUがICUとなっている患者を抽出する。
 
