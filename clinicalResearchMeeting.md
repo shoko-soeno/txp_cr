@@ -36,14 +36,10 @@ discussion, figure, and table最終調整中。校正後、JGIMに提出
 
    データはこちらから山本先生に配布→R studioでtable 1作成中。
 
-   添野先生と山本先生が面談するのであれば時間によっては後藤が参加
-
    アウトカム設定：主アウトカムはCVD＋Sepsisで感度分析で主訴別3月中に初稿→4月中に投稿を目指す
 
    ```
    [do file](https://github.com/shoko-soeno/TXP_prq/blob/master/Soeno_pp.do)
    ```
 
-3. プレホスの記述研究（添野）：傷病者収容書兼初診医意見書の重症度と、実際の転帰の一致...5つの病院＋行政（自治＋下野市・小山市とか）で実施する方向で研究計画書書く。NSERのデータ（EHR_ENCOUNTERのdisposition）と、DPCの入院日数が必要。
-
-   ​																															
+3. プレホスの記述研究（添野）：傷病者収容書兼初診医意見書の重症度と、実際の転帰の一致...5つの病院＋行政（自治＋下野市・小山市とか）で実施する方向で研究計画書書く。NSERのデータ（EHR_ENCOUNTERのdisposition）と、DPCの入院日数が必要。													
