@@ -28,7 +28,7 @@
 
 1. Respiratory rate and clinical outcomes
 
-discussion, figure, and table最終調整中。校正後、JGIMに提出
+   discussion, figure, and table最終調整中。校正後、JGIMに提出
 
 1. PP(pulse pressure)とカテコラミンリリース研究の進捗報告と今後のタイムライン
 
