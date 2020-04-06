@@ -40,21 +40,18 @@
 添野
 
 1. Respiratory rate and clinical outcomes
-
    CCIの計算方法→橋本先生の指摘に沿って修正済。
    2019　4/1（HGHER40024）～9/30（HGHER52336）のデータが抜けている→原先生がクリーニング中
    →今週中にdiscussion, figure, and table最終調整。校正後、JGIMに提出
 
 1. PP(pulse pressure)とカテコラミンリリース研究の進捗報告と今後のタイムライン
-
    データはこちらから山本先生に配布→R studioでtable 1作成中。4/11 or 4/12に山本先生とミーティング予定。
-
    アウトカム設定：全populationでアウトカムを入院とCV＋sepsisだけに絞る（感度分析で主訴別も考慮）
    4月中に投稿を目指す（ターゲット：Am J Emerg Med）
-
    [do file](https://github.com/shoko-soeno/TXP_prq/blob/master/Soeno_pp.do)
 
-2. プレホスの記述研究（添野）：傷病者収容書兼初診医意見書の重症度と、実際の転帰の一致...5つの病院＋行政（自治＋下野市・小山市とか）で実施する方向で研究計画書書く。NSERのデータ（EHR_ENCOUNTERのdisposition）と、DPCの入院日数が必要。
+2. プレホスの記述研究（添野）：傷病者収容書兼初診医意見書の重症度と、実際の転帰の一致...5つの病院＋行政（自治＋下野市・小山市とか）で実施する方向で研究計画書書く。NSERのデータ（EHR_ENCOUNTERのdisposition）と、DPCの入院日数が必要。参考文献、書きかけの研究計画書は下記のgoogle drive内。
+   [google drive] https://drive.google.com/drive/u/3/folders/18ZrC36Pe8CeQQeZhIoTlb3sYsPXpnhAE
 
 ---
 データについてのメモ
