@@ -41,13 +41,16 @@
 
 1. Respiratory rate and clinical outcomes
 
-   discussion, figure, and table最終調整中。CCIの計算方法が間違っていることを橋本先生にご指摘頂いたので、それも修正。DPCは2019　4/1（HGHER40024）～9/30（HGHER52336）のデータが抜けているようなので、それを日立から取り寄せて解析に含める。校正後、JGIMに提出
+   CCIの計算方法→橋本先生の指摘に沿って修正済。
+   2019　4/1（HGHER40024）～9/30（HGHER52336）のデータが抜けている→原先生がクリーニング中
+   →今週中にdiscussion, figure, and table最終調整。校正後、JGIMに提出
 
 1. PP(pulse pressure)とカテコラミンリリース研究の進捗報告と今後のタイムライン
 
-   データはこちらから山本先生に配布→R studioでtable 1作成中。
+   データはこちらから山本先生に配布→R studioでtable 1作成中。4/11 or 4/12に山本先生とミーティング予定。
 
-   アウトカム設定：主アウトカムはCVD＋Sepsisで感度分析で主訴別3月中に初稿→4月中に投稿を目指す
+   アウトカム設定：全populationでアウトカムを入院とCV＋sepsisだけに絞る（感度分析で主訴別も考慮）
+   4月中に投稿を目指す（ターゲット：Am J Emerg Med）
 
    [do file](https://github.com/shoko-soeno/TXP_prq/blob/master/Soeno_pp.do)
 
