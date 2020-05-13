@@ -18,13 +18,14 @@
    -NLPでの抽出
 2.  麻酔に関する研究？
 3. 橋本先生、科研費取得おめでとうございます！！！病院前低血糖に対するブドウ糖投与についての時系列/横断研究　福島の2012〜2019年のデータを使用？これから福島県立医大の倫理審査に出す予定。アウトカムの指標をどうするか？adverse events? Time-to-glucoseとclinical outcome(入院とか)の関連を調べるのは難しい？
+
 ---
 添野
 
 1. Respiratory rate and clinical outcomes
    CCIの計算方法→橋本先生の指摘に沿って修正済。
    2019　4/1（HGHER40024）～9/30（HGHER52336）のデータが抜けている→原先生がクリーニング中
-   →今週中にdiscussion, figure, and table最終調整。校正後、JGIMに提出
+   →manuscript, figure, and table最終調整。今週中に英文校正、JGIMに提出予定
 
 2. PP(pulse pressure)とカテコラミンリリース研究の進捗報告と今後のタイムライン
    データはこちらから山本先生に配布→R studioでtable 1作成中。4/11 or 4/12に山本先生とミーティング予定。
