@@ -29,11 +29,11 @@
 添野
 
 1. Respiratory rate and clinical outcomes
-   →英文校正ほぼ終了、COI form集めてJGIMに提出予定
+   →英文校正終了、後藤先生に最終調整していただいています。JGIMに提出予定
 2. PP(pulse pressure)とカテコラミンリリース研究の進捗報告と今後のタイムライン
-   データはこちらから山本先生に配布→R studioでtable 1作成中。4/11 or 4/12に山本先生とミーティング予定。
-   アウトカム設定：全populationでアウトカムを入院とCV＋sepsisだけに絞る（感度分析で主訴別も考慮）
-   4月中に投稿を目指す（ターゲット：Am J Emerg Med）
+   山本まるみ先生がtable 1作成済。introductionも山本先生にお願いする予定。
+   アウトカム設定：全populationでアウトカムを入院とCVだけに絞る（感度分析で主訴別も考慮）←sepsisも検討していましたが削除
+   ターゲット雑誌：Am J Emerg Med
    
       [do file](https://github.com/shoko-soeno/TXP_prq/blob/master/Soeno_pp.do)
 
