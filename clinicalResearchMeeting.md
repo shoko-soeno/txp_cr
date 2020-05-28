@@ -14,6 +14,9 @@
 ---
 大沢先生
 1. 救急医学会に出す演題を検討中。いまのところ、サンプル数は2万ほど、血液検査データつきのサンプル数は1万ほど。日立は入院中の時系列データ（血液ガス、血液培養含め）も取れるが、他の施設ではNSER+DPCのデータのみ。
+・日立のデータ　https://drive.google.com/drive/folders/1473dN8tw_wa2fUTINLOZCJW1xbykcN_C
+tidy_tablesというフォルダに、原先生がクリーニングしたデータが入っています。
+・原先生が作成された変数表 https://github.com/TXPMedical/nser-tidy
 
 ---
 鱶口先生
