@@ -1,6 +1,6 @@
 clear
 // 日立救急隊のデータ
-import excel "/Users/shokosoeno/Downloads/QQ_hitachi.xlsx", sheet("2019") firstrow
+import excel "/Users/shokosoeno/Downloads/QQ_hitachi.xlsx", sheet("2018-20") firstrow
 rename 病院到着時刻 arrivalDateStr
 rename 年齢 age
 rename 性別 sex
@@ -33,7 +33,7 @@ replace sev = 1 if severity == "死亡"
 replace sev = 2 if severity == "重症"
 replace sev = 3 if severity == "中等症"
 replace sev = 4 if severity == "軽症"
-tab sev
+tabmiss sev
 
 keep age sex enc_date enc_time cc sev
 
@@ -41,15 +41,6 @@ save "/Users/shokosoeno/Desktop/TXP/prehos/qq.dta", replace
 
 //encounterテーブル
 import delimited /Users/shokosoeno/Desktop/TXP/prehos/EHR_ENCOUNTER.csv, encoding(utf8) clear
-tab disposition
-gen disp =.
-replace disp = 1 if disposition == "死亡"
-replace disp = 2 if disposition == "ICU" | disposition == "病棟移動_ICU"
-replace disp = 3 if disposition == "入院" | disposition == "直接入院"
-replace disp = 4 if disposition == "帰宅" | disposition == "一般外来紹介"　| disposition == "キャンセル"　
-replace disp = 5 if disp ==.
-tab disp
-
 gen month = substr(encounter_date,6,2)
 gen day = substr(encounter_date,9,2)
 gen year = substr(encounter_date,1,4)
@@ -67,23 +58,43 @@ save "/Users/shokosoeno/Desktop/TXP/prehos/encounter.dta", replace
 //dpcデータ（staylengthが入院日数）
 import delimited /Users/shokosoeno/Desktop/TXP/prehos/20200331_ERresearch_adpc_original.csv, encoding(utf8) clear 
 rename encounterid encounter_id
+//browse if missing(real(staylength))
+drop if staylength == "?"
+destring staylength, replace
 save "/Users/shokosoeno/Desktop/TXP/prehos/dpc.dta", replace
 
 
-// 時間、日付、年齢、性別でmerge
+//年齢、性別, 時間、（日付）でmerge
 use "/Users/shokosoeno/Desktop/TXP/prehos/encounter.dta", clear
 	merge 1:1 encounter_id using "/Users/shokosoeno/Desktop/TXP/prehos/dpc.dta"
 		drop _merge
 	merge m:m sex age enc_date using "/Users/shokosoeno/Desktop/TXP/prehos/qq.dta"
-	//enc_time
+	//enc_timeを加えるとほとんどmatchしなくなるため一旦除く
 		drop _merge
 
 save "/Users/shokosoeno/Desktop/TXP/prehos/merged.dta", replace
 
 
 use "/Users/shokosoeno/Desktop/TXP/prehos/merged.dta", clear
-drop if sev ==. | disp ==.
+
+drop if sev ==. 
+
+tab disposition
+tabmiss disposition
+gen disp =.
+replace disp = 2 if staylength >= 21 & staylength <.
+replace disp = 3 if staylength > 0 & staylength < 21
+replace disp = 1 if disposition == "死亡"
+replace disp = 2 if disposition == "ICU" | disposition == "病棟移動_ICU"
+replace disp = 3 if disposition == "入院" | disposition == "直接入院"
+replace disp = 4 if disposition == "帰宅" | disposition == "一般外来紹介"　| disposition == "キャンセル"　
+replace disp = 5 if disposition == "" //"その他"
+drop if disp ==. //"転院"もしくは"主科継続"
+
 gen match =.
 replace match = 0 if sev != disp
 replace match = 1 if sev == disp
-tab match
+//tab match
+
+tab match sev, col
+//tab match disp, col
