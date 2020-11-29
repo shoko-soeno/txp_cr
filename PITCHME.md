@@ -1,33 +1,26 @@
-### Who is in this study, anyway? 
-#### Guidelines for a useful Table 1
+## Who is in this study, anyway? 
+### Guidelines for a useful Table 1
 ---
-#### Introduction
+### Introduction
 
 - Table 1はその研究の内的・外的妥当性を検討するためのもの
-    - 外的妥当性() リスト1_1
+    - 外的妥当性
         - effect modifierなど、アウトカムに影響する因子
-            - *交互作用＝2つ以上の因子が互いに影響を及ぼし合うこと（ex ワーファリンとV.K）
     - 内的妥当性含むrisk of bias
-        - 交絡
-        - 選択バイアス
-        - 測定エラー
-- この論文では因果推論の論文を想定してTable 1の書き方をまとめたが、記述・予測研究にも当てはまる
-    - 具体例として3つのFigureを提示
-        - Overview (Figure 1)
-        - case-control (Figure 2)
-        - 欠損値を含むcohort study (Figure 3)
+        - 交絡、選択バイアス、測定エラー、測定エラー、測定エラー
+- 具体例
+    - Overview (Figure 1)
+    - case-control (Figure 2)
+    - 欠損値を含むcohort study (Figure 3)
 
 ---
 #### Basic structure of Table 1
 
-<font size="12">
-- 最も単純な表は、全調査サンプルの記述統計を１列にまとめたもの
-    - キーとなる変数（少なくともメインの解析に含まれる変数）
-    - 記述的統計量
-        - カテゴリカル変数  n(%)
-        - 連続変数  平均（標準偏差）or 中央値（25～75％タイル or 最小値-最大値）
-    - 合計欄は外的妥当性の評価に役立つ
-</font>
+- キーとなる変数（少なくともメインの解析に含まれる変数）
+- 記述的統計量
+- カテゴリカル変数  n(%)
+- 連続変数  平均（標準偏差）or 中央値（25～75％タイル or 最小値-最大値）
+- 合計欄は外的妥当性の評価に役立つ
 
 ---
 #### Considering columns
