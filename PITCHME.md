@@ -13,23 +13,18 @@
 <img src="assets/git_image_2.png" width="350">
 
 ---
+### バージョン管理システム
+  - 集中型　中央レポジトリ（貯蔵庫）みんなで使う。変更は即時反映。
+  - 分散型　中央レポジトリを各自パソコンにクローンして使う。
+
+<img src="assets/distributed.png" width="480">
+---
 ### Gitの操作
 - CUI: 開発者やエンジニア向き
 - GUI: 初心者向き　Sourcetreeなど
   - コマンド入力不要 クリックするだけでプッシュ、コミットなどを実行できる
   
 <img src="assets/sourcetree.png" width="480">
-  
----
-### レポジトリ
-<img src="assets/repository.png" width="400">
-
----
-### クローン
-- バージョン管理システム
-  - 集中型　1つのレポジトリに接続してみんなで使う。コミットは即時中央レポジトリに反映。
-  - 分散型　中央のレポジトリを、各自のパソコンにクローンして使う。好きなタイミングで同期。
-<img src="assets/distributed.png" width="480">
 
 ---
 ### コミット、プッシュ、プル
