@@ -28,6 +28,9 @@
 <img src="assets/sourcetree.png" width="480">
 
 ---
+### 用語の説明
+
+---
 ### コミット、プッシュ、プル
 <img src="assets/commit.png" width="400">
 - プッシュ:コミットをリモートリポジトリに反映（≈アップロード）
@@ -38,7 +41,7 @@
 <img src="assets/fork.png" width="480">
 
 ---
-### Git用語5 ブランチ、マージ、コンフリクト
+### ブランチ、マージ、コンフリクト
 - 同時並行で作業するときに便利
 - masterブランチ（本番用、最新版）
 <img src="assets/branch.png" width="480">
