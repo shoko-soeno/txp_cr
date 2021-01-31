@@ -4,7 +4,7 @@
 "Git"というバージョン管理システムを利用するためのハブ(Hub)
 コンピュータプログラムやソースコードの公開・共有・管理に利用されているウェブサービス 
 
-![alt](assets/git_image.png)
+<img src="assets/git_image.png" width="60">
 
 ---
 ### Basic structure of Table 1
