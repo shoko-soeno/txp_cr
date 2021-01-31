@@ -1,10 +1,10 @@
 ## Githubとは? 
 ---
 ### Githubとは
-"Git"というバージョン管理システムを利用するためのハブ(Hub)
+Git(バージョン管理システム)を利用するためのHub
 コンピュータプログラムやソースコードの公開・共有・管理に利用されているウェブサービス 
 
-<img src="assets/git_image.png" width="60">
+<img src="assets/git_image.png" width="200">
 
 ---
 ### Basic structure of Table 1
