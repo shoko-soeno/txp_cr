@@ -7,11 +7,8 @@
 <img src="assets/git_image.png" width="480">
 
 ---
-### Gitでできること
-- 生命科学分野の解析ツールやデータベースの多くは、GitHub上でソースコードが共有されている(例: NCBIのGitHub)
 - 西アフリカでのエボラ出血熱やCOVID-19などの疫学データセットやオープンソースプロジェクトも公開されている。
-https://github.blog/jp/2020-04-02-open-collaboration-on-covid-19/
-<img src="assets/git_image_2.png" width="480">
+<img src="assets/git_image_2.png" width="350">
 
 ---
 ### Gitの操作
@@ -22,14 +19,13 @@ https://github.blog/jp/2020-04-02-open-collaboration-on-covid-19/
   
 ---
 ### Git用語1 レポジトリ
-<img src="assets/repository.png" width="480">
+<img src="assets/repository.png" width="400">
 
 ---
-### Git用語2 コミット、プッシュ
-<img src="assets/commit.png" width="300">
-<img src="assets/sourcetree_commit.png" width="480">
-- プッシュ = コミットをリモートリポジトリに反映（≈アップロード）
-- プル = リモートリポジトリの変更をローカルリポジトリに反映（≈ダウンロード）
+### Git用語2 コミット、プッシュ、プル
+<img src="assets/commit.png" width="400">
+- プッシュ:コミットをリモートリポジトリに反映（≈アップロード）
+- プル:リモートリポジトリの変更をローカルリポジトリに反映（≈ダウンロード）
 
 ---
 ### Git用語2 クローン
