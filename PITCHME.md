@@ -4,20 +4,20 @@
 - Git(バージョン管理システム)を利用するためのHub
 - 文書や画像など、どんな種類のドキュメントでもアップデート履歴を保存し共有・公開できる
 
-<img src="assets/git_image.png" width="400">
+<img src="assets/git_image_2.png" width="350">
 
 ---
 - ホワイトハウスも業務ソフトのオープンソース化にGithubを利用
 - COVID-19含め疫学データセットやオープンソースプロジェクトも公開されている。
 
-<img src="assets/git_image_2.png" width="350">
+<img src="assets/git_image.png" width="350">
 
 ---
 ### バージョン管理システム
-  - 集中型:変更は中央レポジトリ（貯蔵庫）に即時反映。
+  - 集中型:変更は中央レポジトリに即時反映。
   - 分散型:中央レポジトリを各自クローンして使う。
-
-<img src="assets/distributed.png" width="440">
+  
+<img src="assets/distributed.png" width="420">
 
 ---
 ### Gitの操作
@@ -46,7 +46,11 @@
 - masterブランチ（本番用、最新版）
 <img src="assets/branch.png" width="300">
 - コンフリクト = 同じ行に、同時に別々の修正が行われたためマージできない状態
-- プルリクエスト: masterの管理者にプルを依頼すること
+
+---
+### プルリクエスト
+- masterの管理者にプルを依頼すること
+<img src="assets/pullrequest.png" width="300">
 
 ---
 ### デモ
