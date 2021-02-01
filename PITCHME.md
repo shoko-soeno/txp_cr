@@ -1,4 +1,9 @@
 ## Githubとは? 
+
+---
+### 参考図書
+<img src="assets/cover.png" width="350">
+
 ---
 ### Githubとは
 - Git(バージョン管理システム)を利用するためのHub
@@ -35,6 +40,11 @@
 <img src="assets/fork.png" width="480">
 
 ---
+### リモートリポジトリ、ローカルレポジトリ
+<img src="assets/pull.png" width="480">
+リモートリポジトリをクローンしてくると、そのリポジトリはデフォルトでoriginと名付けられる。
+
+---
 ### コミット、プッシュ、プル
 <img src="assets/commit.png" width="400">
 - プッシュ:コミットをリモートリポジトリに反映（≈アップロード）
@@ -49,8 +59,8 @@
 
 ---
 ### プルリクエスト
-- masterの管理者にプルを依頼すること
-<img src="assets/pullrequest.png" width="300">
+- リモートリポジトリ(origin)の管理者にプルを依頼すること
+<img src="assets/pullrequest.png" width="420">
 
 ---
 ### デモ
