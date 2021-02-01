@@ -37,20 +37,14 @@ https://www.amazon.co.jp/dp/B071D4D6XX/ref=cm_sw_em_r_mt_dp_Y5K4REBQPFASPWX7PBPK
 ### 用語の説明
 
 ---
-### フォーク、クローン
-<img src="assets/fork.png" width="480">
-
----
-### リモートリポジトリ、ローカルレポジトリ
+### リモートリポジトリ、ローカルレポジトリ、ブランチ
 <img src="assets/pull.png" width="480">
 
-- リモートリポジトリをクローンしてくると、そのリポジトリはデフォルトでoriginと名付けられる。
-
----
-### ブランチ、マージ、コンフリクト
+- リモートリポジトリをクローンしたものはデフォルトでoriginと名付けられる。
 - masterブランチ（本番用、最新版）
-<img src="assets/branch.png" width="300">
-- コンフリクト = 同じ行に、同時に別々の修正が行われたためマージできない状態
+---
+### フォーク、クローン
+<img src="assets/fork.png" width="480">
 
 ---
 ### コミット、プッシュ、プル
@@ -60,9 +54,13 @@ https://www.amazon.co.jp/dp/B071D4D6XX/ref=cm_sw_em_r_mt_dp_Y5K4REBQPFASPWX7PBPK
 - プル:リモートリポジトリの変更をローカルリポジトリに反映（≈ダウンロード）
 
 ---
+### マージ、コンフリクト
+<img src="assets/branch.png" width="300">
+- コンフリクト = 同じ行に、同時に別々の修正が行われたためマージできない状態
+
+---
 ### プルリクエスト
 - リモートリポジトリ(origin)の管理者にプルを依頼すること
-
 <img src="assets/pullrequest.png" width="420">
 
 ---
