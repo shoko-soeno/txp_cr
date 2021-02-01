@@ -22,8 +22,8 @@
 ---
 ### Gitの操作
 - CUI: 開発者やエンジニア向き
-- GUI: 初心者向き　Sourcetreeなど
-  - コマンド入力不要 クリックするだけでプッシュ、コミットなどを実行できる
+- GUI: 初心者向き　例）Sourcetree
+  - コマンド入力不要。クリックするだけでプッシュ、コミットなどを実行できる
   
 <img src="assets/sourcetree.png" width="480">
 
