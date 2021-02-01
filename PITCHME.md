@@ -75,4 +75,4 @@ Github上で。
 今後少しずつ慣れていこうと思います。
 
 ---
-### デモ用変更
+political correctnessの観点から、ここ最近ではmaster branch よりも main branch という表現が使われるようになっている
