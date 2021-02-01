@@ -76,3 +76,4 @@ Github上で。
 
 ---
 political correctnessの観点から、ここ最近ではmaster branch よりも main branch という表現が使われるようになっている
+デモ用ブランチに変更を追加
