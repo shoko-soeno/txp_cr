@@ -47,17 +47,17 @@ https://www.amazon.co.jp/dp/B071D4D6XX/ref=cm_sw_em_r_mt_dp_Y5K4REBQPFASPWX7PBPK
 - リモートリポジトリをクローンしてくると、そのリポジトリはデフォルトでoriginと名付けられる。
 
 ---
+### ブランチ、マージ、コンフリクト
+- masterブランチ（本番用、最新版）
+<img src="assets/branch.png" width="300">
+- コンフリクト = 同じ行に、同時に別々の修正が行われたためマージできない状態
+
+---
 ### コミット、プッシュ、プル
 <img src="assets/commit.png" width="400">
 
 - プッシュ:コミットをリモートリポジトリに反映（≈アップロード）
 - プル:リモートリポジトリの変更をローカルリポジトリに反映（≈ダウンロード）
-
----
-### ブランチ、マージ、コンフリクト
-- masterブランチ（本番用、最新版）
-<img src="assets/branch.png" width="300">
-- コンフリクト = 同じ行に、同時に別々の修正が行われたためマージできない状態
 
 ---
 ### プルリクエスト
@@ -66,7 +66,7 @@ https://www.amazon.co.jp/dp/B071D4D6XX/ref=cm_sw_em_r_mt_dp_Y5K4REBQPFASPWX7PBPK
 <img src="assets/pullrequest.png" width="420">
 
 ---
-### デモ
+### ごく簡単なデモ
 Sourcetreeを使う予定でしたが、アプリのインストール、Githubとの連携などがうまくいかなかったりするので、
 Github上で。
 
