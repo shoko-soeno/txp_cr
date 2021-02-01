@@ -8,6 +8,7 @@ https://www.amazon.co.jp/dp/B071D4D6XX/ref=cm_sw_em_r_mt_dp_Y5K4REBQPFASPWX7PBPK
 ---
 ### Githubとは
 - Git(バージョン管理システム)を利用するためのHub
+- GitのホスティングサービスではGithubが有名だが、BitBucketなど色々ある。
 - 文書や画像など、どんな種類のドキュメントでもアップデート履歴を保存し共有・公開できる
 
 <img src="assets/git_image_2.png" width="350">
@@ -41,7 +42,7 @@ https://www.amazon.co.jp/dp/B071D4D6XX/ref=cm_sw_em_r_mt_dp_Y5K4REBQPFASPWX7PBPK
 <img src="assets/pull.png" width="480">
 
 - リモートリポジトリをクローンしたものはデフォルトでoriginと名付けられる。
-- masterブランチ（本番用、最新版）
+- masterブランチ（本番用、最新版）→政治的な理由からいまは"main"ブランチと呼ぶ。
 ---
 ### フォーク、クローン
 <img src="assets/fork.png" width="480">
@@ -73,7 +74,3 @@ Github上で。
 ### おわり
 差分管理は結局どのツールをつかってもめんどう。
 今後少しずつ慣れていこうと思います。
-
----
-political correctnessの観点から、ここ最近ではmaster branch よりも main branch という表現が使われるようになっている
-デモ用ブランチに変更を追加
