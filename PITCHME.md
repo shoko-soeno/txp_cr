@@ -60,8 +60,9 @@ https://www.amazon.co.jp/dp/B071D4D6XX/ref=cm_sw_em_r_mt_dp_Y5K4REBQPFASPWX7PBPK
 
 ---
 ### プルリクエスト
-- リモートリポジトリ(origin)の管理者にプルを依頼すること
+
 <img src="assets/pullrequest.png" width="420">
+- リモートリポジトリ(origin)の管理者にプルを依頼すること
 
 ---
 ### ごく簡単なデモ
